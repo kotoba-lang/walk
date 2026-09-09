@@ -1,0 +1,34 @@
+{:paths ["src"]
+ :deps {
+        io.github.kotoba-lang/walk-bounded-postwalk
+        {:git/url "https://github.com/kotoba-lang/walk-bounded-postwalk.git"
+         :git/sha "320f28e9dde33aa3b15e5f1fda183c7f46427f54"}
+        io.github.kotoba-lang/walk-bounded-prewalk
+        {:git/url "https://github.com/kotoba-lang/walk-bounded-prewalk.git"
+         :git/sha "bb04ab2cb1a65a430eeac5ff2b8fc2b6c618792f"}
+        io.github.kotoba-lang/walk-keywordize-keys
+        {:git/url "https://github.com/kotoba-lang/walk-keywordize-keys.git"
+         :git/sha "c6409b529322063e5a481d86e10603732cc69866"}
+        io.github.kotoba-lang/walk-postwalk
+        {:git/url "https://github.com/kotoba-lang/walk-postwalk.git"
+         :git/sha "9c2234b1351d12385bec58609a8929e1cb66ab56"}
+        io.github.kotoba-lang/walk-postwalk-replace
+        {:git/url "https://github.com/kotoba-lang/walk-postwalk-replace.git"
+         :git/sha "c131fd94b155a15d71ceb1395f19f825a4cfd3f6"}
+        io.github.kotoba-lang/walk-prewalk
+        {:git/url "https://github.com/kotoba-lang/walk-prewalk.git"
+         :git/sha "7c990ae43897dbb14a4d7109b2fab30c0096f3d5"}
+        io.github.kotoba-lang/walk-prewalk-replace
+        {:git/url "https://github.com/kotoba-lang/walk-prewalk-replace.git"
+         :git/sha "dc5615ee7ee402a0a52bc65fb53ae768e70a5441"}
+        io.github.kotoba-lang/walk-stringify-keys
+        {:git/url "https://github.com/kotoba-lang/walk-stringify-keys.git"
+         :git/sha "03db538c363e437cfbe3de3b54f6f09b641293a5"}
+        io.github.kotoba-lang/walk-walk
+        {:git/url "https://github.com/kotoba-lang/walk-walk.git"
+         :git/sha "9a00daed8a94045177bf8355110a2cb2d02d954c"}}
+ :aliases
+ {:test {:extra-paths ["test"]
+         :extra-deps {io.github.cognitect-labs/test-runner
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}
+         :main-opts ["-m" "cognitect.test-runner"]}}}
